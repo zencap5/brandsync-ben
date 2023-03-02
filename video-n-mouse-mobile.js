@@ -129,7 +129,7 @@
     const duplicatedCursorText = entry.baseElement.cloneNode(true);
     duplicatedCursorText.style =
       "opacity: 0; transition: opacity 0.25s; color: transparent; background-clip: text; -webkit-background-clip: text; background-position: center; background-size: cover;";
-    duplicatedCursorText.style.backgroundImage = `url(https://brandsync.vercel.app/gradient.jpg)`;
+    duplicatedCursorText.style.backgroundImage = `url(https://uploads-ssl.webflow.com/63ff44e96d759d26652026db/6400d8c47173b76f976646bb_BrandSync_Blend.png)`;
     entry.overlayElement = duplicatedCursorText;
 
     if (entry.strategy === "overlay") {
