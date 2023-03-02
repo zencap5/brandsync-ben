@@ -84,7 +84,7 @@
 
   const videoButtons = document.createElement("div");
   videoButtons.style =
-    "position: fixed; top: 1rem; right: 1rem; z-index: 1000; display: flex; column-gap: 1rem;";
+    "position: fixed; top: 7rem; right: 1rem; z-index: 1000; display: flex; column-gap: 1rem;";
   videoButtons.innerHTML = `
   <button
     style="appearance: none; border: none; background-color: black; color: white; padding: 0.75rem; border-radius: 99rem;"
