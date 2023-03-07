@@ -159,7 +159,7 @@
   cursor.appendChild(cursorBall);
   document.body.appendChild(cursor);
 
-  const noCursorZones = ["#personas"];
+  const noCursorZones = ["#personas", ".navbar-logo-left", "#bottom-contact"];
 
   let cursorX = 0;
   let cursorY = 0;
