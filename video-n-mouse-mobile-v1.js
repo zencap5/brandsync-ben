@@ -147,7 +147,7 @@
 
   const cursor = document.createElement("div");
   cursor.style =
-    "position: fixed; display: none; z-index: 998; mix-blend-mode: difference;";
+    "position: fixed; display: none; z-index: 998; mix-blend-mode: difference; pointer-events: none;";
   const cursorBall = document.createElement("div");
   cursorBall.style =
     "height: 1rem; width: 1rem; background-color: white; border-radius: 99rem; transition: transform 200ms;";
