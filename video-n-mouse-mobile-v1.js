@@ -154,7 +154,7 @@
   cursor.appendChild(cursorBall);
   document.body.appendChild(cursor);
 
-  const noCursorZones = ["#personas"];
+  const noCursorZones = ["#personas", "fs-modal-1-popup"];
 
   let cursorX = 0;
   let cursorY = 0;
